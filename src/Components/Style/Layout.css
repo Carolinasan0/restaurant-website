@@ -1,0 +1,12 @@
+.layout {
+    min-height: 100vh;
+  }
+  
+  .layout .logo {
+    position: absolute;
+    top: 5px;
+  }
+  
+  .layout .logo {
+    transform: scale(0.52);
+  }

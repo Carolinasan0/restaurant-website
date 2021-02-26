@@ -1,3 +1,10 @@
+Español
+
+El repositorio o archivos de este proyecto se encuentran en el siguiente link de GitHub: 
+
+
+Web site for a local bussines in Colombia, for help your economy during the Covid-19 pandemic. created using create-react-app"
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
