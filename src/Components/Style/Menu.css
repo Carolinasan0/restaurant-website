@@ -169,40 +169,40 @@
 
 /*-----------To shopping car------------*/
 .menu > div:last-child {
-  height: 10%;
+  height: 35%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .menu .to-shop-car {
-  height: 45px;
-  width: 100px;
+  height: 41px;
+  width: 95px;
   display: flex;
+  position: fixed;
   justify-content: space-evenly;
   align-items: center;
   background-color: #862427;
   border-radius: 24px;
   color: black;
   text-decoration: none;
-  box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.4);
 }
 
-.menu .to-shop-car:active {
+/* .menu .to-shop-car:active {
   transform: scale(0.99);
-}
+} */
 
 .menu .to-shop-car i {
   transform: scale(1.5);
 }
 
 .menu .to-shop-car p {
-  height: 35px;
-  width: 35px;
+  height: 30px;
+  width: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: white;
   border-radius: 50%;
-  font-size: 24px;
+  font-size: 22px;
 }

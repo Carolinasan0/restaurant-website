@@ -29,6 +29,7 @@
     height: 25%;
     display: flex;
     align-items: flex-end;
+    margin: 20px;
   }
   
   .pageProd .message {
@@ -51,7 +52,7 @@
     text-align: left;
     padding: 5px;
   }
-  
+
   /*-------------Articles shopping Cart-------------*/
   .pageProd .articles {
     height: 40%;
@@ -62,19 +63,20 @@
     align-items: center;
   }
   
-  /* .order .articles .article-container {
+  .order .articles .article-container {
     margin: auto;
+    margin-top:10px;
     width: 100%;
     padding-top: 10px;
-  } */
+  }
 
   .pageProd .articles article {
     position: relative;
     height: 80px;
-    width: 70%;
+    width: 250px;
     margin-top: 15px;
     transform: translateX(20px);
-    background-color: #f2ba79;
+    background-color: #f3d6d7;
     border-radius: 12px;
     text-align: center;
   }

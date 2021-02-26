@@ -25,7 +25,7 @@ function PageProd(props) {
                         <figure style={item.styles}></figure>
                             <div className="contents">
                                 <h4>{item.name}</h4>
-                                <p>{item.ingredients}</p>
+                                {/* <p>{item.ingredients}</p> */}
                                 <p>$ {item.price}</p>
                                 <p>{props.carValues[idx]}</p>
                             </div>
@@ -39,33 +39,33 @@ function PageProd(props) {
                 </div>
           )
         })}
-      </div>
+          </div>
     
           <div className="resume">
-           <div>
+            <div>
               <Link  to="/menu">
                 <p>Agregar más productos</p>
               </Link>
             </div>
-    
-          <div>
-            {/* <div className="row">
-              <p>Envío ()</p>
-            </div> */}
-            <div className="row">
-              <p>Total (Sin envío)</p>
-              <p>$ {props.total}</p>
+      
+            <div>
+              {/* <div className="row">
+                <p>Envío ()</p>
+              </div> */}
+              <div className="row">
+                <p>Total (Sin envío)</p>
+                <p>$ {props.total}</p>
+              </div>
             </div>
-          </div>
-    
-          <div>
-          <a href={`https://api.whatsapp.com/send?phone=${props.phone}&text=${props.order}`}>
-            <p>Confirmar orden</p>
-            <i className="fab fa-whatsapp"></i>
-          </a>
+      
+            <div>
+              <a href={`https://api.whatsapp.com/send?phone=${props.phone}&text=${props.order}`}>
+                <p>Confirmar orden</p>
+                <i className="fab fa-whatsapp"></i>
+              </a>
+            </div>
         </div>
-          </div>
-        </section>
+      </section>
     )
 }
 

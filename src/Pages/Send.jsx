@@ -37,13 +37,14 @@ function Send(props) {
   const request = [];
 
   shopList.forEach((item, idx) => {
-    request.push(`Producto ${idx+1}
-      ${item.name}: ${values[idx]}
-      Ingredientes: ${item.ingredients}//
-    `);
+    request.push(`
+      Producto ${idx+1}
+      ${item.name}, 
+      cantidad: ${values[idx]}; 
+      `);
   });
 
-  const order = `Nuevo pedido:
+  const order = `Hola, quiero pedir lo siguiente:
   
   ${request.join(`
   `)}
