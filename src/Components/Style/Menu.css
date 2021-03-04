@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
 .menu {
   height: 100vh;
+  font-family: 'Quicksand';
 }
 /*--------------Filter--------------*/
 .menu .form {
@@ -81,9 +84,10 @@
 /*-------------List of items--------------*/
 .menu .list-of-items {
   height: 65%;
-  padding-top: 120px;
+  padding-top: 75px;
+  /* overflow-y: scroll; */
 
-}
+  }
 
 .menu .list-of-items article {
   position: relative;
@@ -95,8 +99,8 @@
   margin-top: 50px;
 }
 
-.menu .list-of-items article:first-child {
-  margin-top: 0%;
+.menu .list-of-items article.hidden {
+  display: none;
 }
 
 .menu .list-of-items article figure {
@@ -170,9 +174,10 @@
 /*-----------To shopping car------------*/
 .menu > div:last-child {
   height: 35%;
+  padding-top: 40%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .menu .to-shop-car {
@@ -186,6 +191,7 @@
   border-radius: 24px;
   color: black;
   text-decoration: none;
+  cursor: pointer;
 }
 
 /* .menu .to-shop-car:active {

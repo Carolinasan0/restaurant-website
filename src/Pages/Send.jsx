@@ -40,11 +40,11 @@ function Send(props) {
     request.push(`
       Producto ${idx+1}
       ${item.name}, 
-      cantidad: ${values[idx]}; 
+      cantidad: ${values[idx]};<br>
       `);
   });
 
-  const order = `Hola, quiero pedir lo siguiente:
+  const order = `Hola, quiero pedir lo siguiente:<br>
   
   ${request.join(`
   `)}
