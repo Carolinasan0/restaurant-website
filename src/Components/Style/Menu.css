@@ -12,6 +12,7 @@
   width: 200px;
   box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.4);/*¡?¡?*/
   border-radius: 4px;
+  position: absolute;
 }
 
 .label {
@@ -85,8 +86,6 @@
 .menu .list-of-items {
   height: 65%;
   padding-top: 75px;
-  /* overflow-y: scroll; */
-
   }
 
 .menu .list-of-items article {
@@ -117,7 +116,7 @@
 }
 
 .menu .list-of-items article .contents {
-  display: grid;
+  display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   min-height: 150px;
@@ -172,12 +171,13 @@
 }
 
 /*-----------To shopping car------------*/
+
 .menu > div:last-child {
   height: 35%;
   padding-top: 40%;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
 }
 
 .menu .to-shop-car {
@@ -191,7 +191,6 @@
   border-radius: 24px;
   color: black;
   text-decoration: none;
-  cursor: pointer;
 }
 
 /* .menu .to-shop-car:active {
